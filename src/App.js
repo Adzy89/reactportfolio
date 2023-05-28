@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects'
 import Resume from './components/Resume/Resume'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
