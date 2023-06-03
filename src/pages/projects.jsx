@@ -39,12 +39,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Here are some of the projects I've made trying to put a dent in the Universe.
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
+							I've worked on a variety of projects and frameworks over the past 6 months
 							and I'm proud of the progress I've made. Many of
 							these projects are open-source and available for
 							others to explore and contribute to. If you're
