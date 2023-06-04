@@ -15,36 +15,36 @@ const INFO = {
 	homepage: {
 		title: "Full-stack web developer, Avid Gamer and Crypto Euthusiast.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a Full Stack Developer I have experinece in front-end and back-end applications, such as html, javascript, css, express, node js, mysql, mongodb & react.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Adam Pilato, I Live Sydney Australia and I enjoy building applications and helping people.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Portfolio",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"This webpage was my first website portfolio design in html and css.",
+			logo: "https://cdn.jsdelivr.net/npm/@programming-languages-logos/html@0.0.1/html.png",
+			linkText: "View Project",
+			link: "https://github.com/Adzy89/Portfolio",
+		},
+
+		{
+			title: "Fitness Tracker",
+			description:
+				"The Fitness tracker was a collaborated project with an idea to help users track their, meals, sleep and excersie to improve their fitness.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Lhoole/Fitness-Tracker",
 		},
 
 		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
+			title: "Team Chat",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",

@@ -102,7 +102,7 @@ const Homepage = () => {
 									<div className="homepage-image-wrapper">
 										<img
 											src="profilePicture.jpg"
-											alt="about"
+											alt="profilePicture"
 											className="homepage-image"
 										/>
 									</div>
