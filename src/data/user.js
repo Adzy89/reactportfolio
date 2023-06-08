@@ -1,3 +1,5 @@
+import reactLogo from "../assests/favicon.ico"
+
 const INFO = {
 	main: {
 		title: "Adam Pilato React Portfolio",
@@ -46,10 +48,10 @@ const INFO = {
 		{
 			title: "Team Chat",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"TeamChat app where users can chat and play games with each other.",
+			logo: reactLogo,
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Adzy89/teamchat",
 		},
 
 	],
