@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
+
 import NavBar from "../components/Common/navBar";
 import Footer from "../components/Common/footer";
 import Logo from "../components/Common/logo";
 import Socials from "../components/About/Socials";
+
 
 import INFO from "../data/user";
 import SEO from "../data/seo";

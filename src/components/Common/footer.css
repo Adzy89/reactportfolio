@@ -1,26 +1,21 @@
 @import "../../data/styles.css";
 
 .footer {
-	display: flex;
+	display: block;
 	padding-top: 25px;
 	margin-top: 50px;
 	padding-bottom: 25px;
 	align-items: center;
 }
 
-.footer-links,
-.footer-credits {
-	flex-basis: 50%;
-}
-
 .footer-links {
-	margin-left: -40px;
+	display: block;
 }
 
 .footer-nav-link-list {
 	display: flex;
 	list-style: none;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 }
 
@@ -36,13 +31,6 @@
 
 .footer-nav-link-list a:hover {
 	color: var(--link-color);
-}
-
-.footer-credits-text {
-	justify-content: flex-end;
-	color: var(--tertiary-color);
-	font-size: 14px;
-	text-align: right;
 }
 
 @media (max-width: 600px) {

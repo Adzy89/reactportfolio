@@ -1,38 +1,38 @@
 
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 import Footer from "../Common/footer";
-import "../../pages/styles/resume.css";
-
 import myResume from "../../assests/adamPilatoResume.pdf";
+import "./Resume.css";
+
+import { pdfjs, Document, Page } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.js',
+  import.meta.url,
+).toString();
 
 const Resume = () => {
+
   useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
-
   return (
-    <React.Fragment>
-      <div>
+<>
+      <div className="page-content">
         <div>
-          <iframe
-            id="fred"
-            title="PDF in an i-Frame"
-            src={myResume}
-            frameborder="1"
-            scrolling="auto"
-            height="1100"
-            width="100%"
-            ></iframe>
+          <Document file={myResume} className="pdf">
+            <Page pageNumber={1} />
+          </Document>
+   
         </div>
 
-        <div className="page-footer">
+        <div className="page-footer" >
 							<Footer />
-						</div>
-			</div>
-				
-    </React.Fragment>
+				</div>
+        </div>
+  </>
+
   );
-}
+};
 
 export default Resume;
