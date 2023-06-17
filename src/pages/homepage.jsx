@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { motion } from "framer-motion";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -78,7 +79,7 @@ const Homepage = () => {
 
 			<div className="page-content">
 				<NavBar active="home" />
-				<div className="content-wrapper">
+					<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
@@ -96,18 +97,29 @@ const Homepage = () => {
 									{INFO.homepage.description}
 								</div>
 							</div>
-
-							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="profilePicture.jpg"
-											alt="profilePicture"
-											className="homepage-image"
-										/>
+							
+							{ <motion.div
+								className="motion-container"
+								initial={{ scale: 0 }}
+								animate={{ rotate: 180, scale: 1 }}
+								transition={{
+										  type: "spring",
+										  stiffness: 260,
+										  damping: 20
+									}}
+							
+						/> }
+								<div className="homepage-first-area-right-side">
+									<div className="homepage-image-container">
+										<div className="homepage-image-wrapper">
+											<img
+												src="profilePicture.jpg"
+												alt="profilePicture"
+												className="homepage-image"
+											/>
+										</div>
 									</div>
-								</div>
-							</div>
+									</div>
 						</div>
 
 						<div className="homepage-socials">

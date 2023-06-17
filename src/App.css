@@ -17,10 +17,10 @@
 	background-color: rgb(0, 0, 0);
 }
 
-.page-content {
+/* .page-content {
 	background-color: white;
 	position: relative;
-}
+} */
 
 .page-content:before,
 .page-content:after {

@@ -5,7 +5,7 @@ const INFO = {
 		title: "Adam Pilato React Portfolio",
 		name: "Adam Pilato.",
 		email: "adam_pilato@hotmail.com",
-		logo: "../logo.png",
+		logo: "../logo512.png",
 	},
 
 	socials: {
