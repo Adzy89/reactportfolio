@@ -15,9 +15,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web developer, Avid Gamer and Crypto Euthusiast.",
+		title: "Versatility Defined: Full-Stack Web Developer, Avid Gamer, and Crypto Enthusiast",
 		description:
-			"I am a Full Stack Developer I have experinece in front-end and back-end applications, such as html, javascript, css, express, node js, mysql, mongodb & react.",
+			"I am a Full Stack Developer with expertise in both front-end and back-end technologies, including HTML, JavaScript, CSS, Express, Node.js, MySQL, MongoDB, and React.",
 	},
 
 	about: {
@@ -30,7 +30,7 @@ const INFO = {
 		{
 			title: "Portfolio",
 			description:
-				"This webpage was my first website portfolio design in html and css.",
+				"This webpage represents a significant milestone in my journey as a web developer, as it serves as my inaugural foray into creating a personal website portfolio using HTML and CSS.",
 			logo: "https://cdn.jsdelivr.net/npm/@programming-languages-logos/html@0.0.1/html.png",
 			linkText: "View Project",
 			link: "https://github.com/Adzy89/Portfolio",
@@ -39,7 +39,7 @@ const INFO = {
 		{
 			title: "Fitness Tracker",
 			description:
-				"The Fitness tracker was a collaborated project with an idea to help users track their, meals, sleep and excersie to improve their fitness.",
+				"The Fitness Tracker project represents a collaborative effort aimed at providing users with a comprehensive tool to enhance their overall well-being.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/Lhoole/Fitness-Tracker",
@@ -48,7 +48,7 @@ const INFO = {
 		{
 			title: "Team Chat",
 			description:
-				"TeamChat app where users can chat and play games with each other.",
+				"The TeamChat app is a versatile platform designed to facilitate communication and entertainment among its users.",
 			logo: reactLogo,
 			linkText: "View Project",
 			link: "https://github.com/Adzy89/teamchat",

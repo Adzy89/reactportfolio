@@ -11,10 +11,7 @@ import INFO from "../data/user";
 import "./styles/404.css";
 
 const Notfound = () => {
-	useEffect(() => {
-		document.title = `404 | ${INFO.main.title}`;
-	}, []);
-
+	
 	return (
 		<React.Fragment>
 			<div className="not-found page-content">
